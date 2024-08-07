@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS classes */
+.sidebar {
+  @apply bg-white dark:bg-gray-800 text-gray-900 dark:text-white;
+}
+
+.sidebar a {
+  @apply text-gray-900 dark:text-white;
+}
+
+.sidebar a:hover {
+  @apply bg-gray-100 dark:hover:bg-gray-700;
+}
